@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "Jenny's E-Portfolio"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Über mich
+      - href: project.qmd
+        text: ML Projekt
+      - href: cv.qmd
+        text: Lebenslauf
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: true
+
+
+
