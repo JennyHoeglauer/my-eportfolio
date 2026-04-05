@@ -2,6 +2,11 @@
 title: "Jenny's Portfolio"
 ---
 
-This is a Quarto website.
+![](images/jenny1.jpg){width=200px style="border-radius: 50%;"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Hi, I'm Jenny Höglauer 
+
+Welcome to my ePortfolio! I am a student at Dublin City University 
+studying Global Business Studies.
+
+This portfolio showcases my academic work, projects and professional development.
