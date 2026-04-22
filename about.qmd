@@ -1,5 +1,19 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+## Hi, I'm Jenny Höglauer
+
+### An International Management and Global Business Student with a strong interest in Finance, Strategy and Data Analytics.
+
+I am currently completing my Double Degree at ESB Business School in Germany and Dublin City University in Ireland, where I have developed a solid foundation in business, finance and strategic analysis. Studying in an international environment has shaped my perspective and strengthened my ability to understand how markets, institutions and economic systems interact across borders.
+
+My interest in finance and strategy developed through both my studies and my practical experience in the banking sector. During my time at Landesbank Baden-Württemberg, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated environment. This experience sparked my curiosity for understanding financial systems not only at a company level, but within a broader economic and regulatory context.
+
+Alongside this, I developed a strong interest in data analytics. I enjoy working with data, identifying patterns and translating complex information into structured insights that support decision-making.
+
+Outside of my academic background, I have been actively involved in sports, particularly tennis. I led my school's "Jugend trainiert für Olympia" team, which helped me develop a sense of responsibility and teamwork. I also took part in the German Chess Championship in 2015, which strengthened my analytical thinking and strategic approach to problem-solving.
+
+In addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.
+
+Looking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context.
