@@ -4,4 +4,4 @@ title: "Curriculum Vitae"
 
 ## Jenny Höglauer
 
-[📄 Download CV (PDF)](CV.pdf)
+[📄 Download CV (PDF)](cv/CV.pdf)

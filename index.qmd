@@ -1,12 +1,20 @@
 ---
-title: "Jenny's Portfolio"
+title: "Jenny Höglauer"
+image: images/jenny1.JPG
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/JennyHoeglauer
+    - icon: envelope
+      text: Email
+      href: mailto:jenny.hoeglauer@outlook.com
 ---
 
-![](images/jenny1.jpg){width=200px style="border-radius: 50%;"}
+## Hi, I'm Jenny Höglauer
 
-## Hi, I'm Jenny Höglauer 
-
-Welcome to my ePortfolio! I am a student at Dublin City University 
-studying Global Business Studies.
+I am a student at Dublin City University studying Global Business Studies 
+in a Double Degree program.
 
 This portfolio showcases my academic work, projects and professional development.
