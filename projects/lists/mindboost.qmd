@@ -1,0 +1,74 @@
+---
+title: "MindBoost – Mental Wellbeing App"
+description: "A New Enterprise Development project creating a mental wellbeing app for young adults aged 18-30."
+author: "Jenny Höglauer"
+date: "2026-04-02"
+categories: [Entrepreneurship, Business Development, App Design]
+image: ../../images/ned_team.jpeg
+---
+
+## Overview
+
+MindBoost is a mental wellbeing app developed as part of the New Enterprise 
+Development module at Dublin City University. As **CEO** of the project, 
+I led a team of five students to design, research and pitch a digital 
+solution for young adults struggling with stress and anxiety.
+
+## The Problem
+
+Young people aged 18-30 face increasing levels of stress and anxiety, 
+yet existing mental health solutions are often too clinical, expensive 
+or time-consuming for daily use.
+
+## Our Solution
+
+MindBoost offers personalised daily mental wellbeing support through:
+
+- 🧠 **AI-personalised tips** based on mood tracking
+- 📓 **Daily check-ins** with journaling and breathing exercises
+- 🎯 **Short activities** that fit into a 5-minute daily routine
+- 👨‍⚕️ **Direct therapist access** for professional support
+
+![MindBoost App Mockup](../../images/Mockup.jpeg){width=50% fig-align="center"}
+
+## Key Research Insights
+
+| Insight | Result |
+|---------|--------|
+| Users find daily check-ins highly useful | 67.8% |
+| Appreciate direct therapist access | 67.6% |
+| Willing to pay €4.99+ per month | 35% |
+
+## My Role
+
+As CEO, I was responsible for overall strategy, team coordination and 
+the final pitch presentation at DCU Business School.
+
+![MindBoost Team Presentation at DCU](../../images/Team_NED.jpeg){width=80% fig-align="center"}
+
+![MindBoost Pitch Deck](../../images/NED2.jpeg){width=80% fig-align="center"}
+
+::: {.callout-note}
+This project was developed as part of the New Enterprise Development Programme at DCU Business School.
+:::
+
+## Data Analysis
+
+```{python}
+#| echo: true
+#| fig-cap: "MindBoost User Research Results"
+
+import matplotlib.pyplot as plt
+
+insights = ['Daily check-ins\nhighly useful', 'Therapist\naccess', 'Willing to pay\n€4.99+/month']
+values = [67.8, 67.6, 35.0]
+
+fig, ax = plt.subplots(figsize=(8, 4))
+bars = ax.barh(insights, values, color=['#1B6B7B', '#29CADE', '#A0A4A8'])
+ax.set_xlabel('Percentage (%)')
+ax.set_xlim(0, 100)
+for bar, val in zip(bars, values):
+    ax.text(val + 1, bar.get_y() + bar.get_height()/2, f'{val}%', va='center')
+plt.tight_layout()
+plt.show()
+```

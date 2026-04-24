@@ -1,0 +1,66 @@
+---
+title: "Diabetes Prediction using Decision Trees and Random Forest"
+description: "A machine learning study predicting Type 2 Diabetes using the Pima Indians Diabetes Database."
+author: "Jenny Höglauer"
+date: "2026-04-20"
+categories: [Machine Learning, Python, Classification]
+image: ../../images/jenny1.JPG
+---
+
+## Overview
+
+This project applies Decision Tree and Random Forest classifiers to predict 
+Type 2 Diabetes using the Pima Indians Diabetes Database. The study compares 
+both models with a focus on recall, which is the clinically most relevant metric.
+
+## Setup
+
+```{python}
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import confusion_matrix, classification_report
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+## Load Data
+
+```{python}
+url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
+columns = ['Pregnancies','Glucose','BloodPressure','SkinThickness',
+           'Insulin','BMI','DiabetesPedigreeFunction','Age','Outcome']
+df = pd.read_csv(url, names=columns)
+df.head()
+```
+
+## Train Models
+
+```{python}
+X = df.drop('Outcome', axis=1)
+y = df['Outcome']
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y)
+
+dt = DecisionTreeClassifier(max_depth=5, random_state=42)
+dt.fit(X_train, y_train)
+
+rf = RandomForestClassifier(n_estimators=100, random_state=42)
+rf.fit(X_train, y_train)
+```
+
+## Confusion Matrix
+
+```{python}
+fig, axes = plt.subplots(1, 2, figsize=(12, 4))
+for ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):
+    cm = confusion_matrix(y_test, model.predict(X_test))
+    sns.heatmap(cm, annot=True, fmt='d', ax=ax,
+                xticklabels=['No Diabetes','Diabetes'],
+                yticklabels=['No Diabetes','Diabetes'])
+    ax.set_title(f'{name} - Confusion Matrix')
+plt.tight_layout()
+plt.show()
+```

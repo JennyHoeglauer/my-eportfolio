@@ -1,0 +1,30 @@
+---
+title: "Reflection"
+---
+
+## What I Learned
+
+Throughout this module, I developed a range of technical and analytical skills 
+that I had not previously worked with in a structured way.
+
+## Git and Version Control
+
+Learning to use Git and GitHub was one of the most valuable skills I acquired. 
+I now understand how to track changes, write meaningful commit messages, and 
+manage a project repository professionally.
+
+## Quarto and Web Development
+
+Building this ePortfolio with Quarto taught me how websites are structured 
+and how to customise them using HTML, CSS and YAML configuration.
+
+## Python and Machine Learning
+
+Working with Python for the Diabetes Prediction project deepened my understanding 
+of machine learning concepts such as Decision Trees, Random Forest, recall and 
+model evaluation.
+
+## Looking Ahead
+
+These skills are directly applicable to my career goals in finance, strategy 
+and data analytics, where data-driven decision making is increasingly important.

@@ -17,3 +17,58 @@ Outside of my academic background, I have been actively involved in sports, part
 In addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.
 
 Looking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context.
+
+---
+
+## Education
+
+| Degree | Institution | Period |
+|--------|-------------|--------|
+| Global Business Studies, BA (Double Degree) | Dublin City University, Ireland | since 09/2024 |
+| International Management, BSc (Double Degree) | ESB Business School, Germany | 09/2022 – 09/2024 |
+| Chemical and Biological Engineering | Stuttgart University, Germany | 11/2020 – 04/2022 |
+| Bilingual A-Levels (English, French, Biology) | Hohenstaufen Gymnasium, Germany | 09/2012 – 07/2020 |
+
+![Dublin City University, Ireland](images/Ireland.jpeg){width=60% fig-align="center"}
+![Dublin City University, Ireland](images/DCU.jpg){width=60% fig-align="center"}
+
+---
+
+## Work Experience
+
+### Landesbank Baden-Württemberg (LBBW)
+**Intern & Working Student** | Stuttgart, Germany
+
+During my time at LBBW, I worked on market and competitive analyses and gained 
+insights into how strategic decisions are developed in a regulated banking 
+environment. This experience sparked my curiosity for understanding financial 
+systems at both a company and regulatory level.
+
+### Click&Boat
+**Junior Sales Executive Intern** | Barcelona, Spain | 03/2025 – 08/2025
+
+Worked in B2C inbound sales and booking conversion in an international 
+marketplace. Responsibilities included lead qualification, follow-up and 
+CRM management.
+
+---
+
+## Personality
+
+Beyond my academic and professional background, I am driven by curiosity 
+and a passion for understanding complex systems.
+
+I have been actively involved in **tennis** throughout my life, leading my 
+school's *"Jugend trainiert für Olympia"* team. At the age of 12, I became 
+the **Württemberg Chess Champion** in my age group and represented SC Grunbach 
+at the German Chess Championship in 2015.
+
+::: {style="max-width: 300px; margin: auto;"}
+{{< video images/tennis.mp4 >}}
+:::
+
+I also have a personal interest in medicine and the healthcare sector, 
+exploring the intersection of business, innovation and regulation in the 
+pharmaceutical industry.
+
+**Languages:** German (native) | English (fluent) | French (fluent)

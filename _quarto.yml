@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Jenny's E-Portfolio"
@@ -9,21 +10,22 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: Über mich
-      - href: project.qmd
-        text: ML Projekt
+        text: About me
+      - href: projects/index.qmd
+        text: ML Project
       - href: cv.qmd
-        text: Lebenslauf
+        text: Curriculum Vitae
+      - href: reflection.qmd
+        text: Reflection
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
     theme: 
-      light: cosmo
+      light: lux
       dark: darkly
-    css: styles.css
+    css: styles.scss
     toc: true
     code-fold: true
     code-tools: true
-
-
-
