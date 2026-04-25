@@ -1,6 +1,6 @@
 ---
 title: "Jenny Höglauer"
-image: images/jenny1.JPG
+image: images/jenny.jpg
 about:
   template: trestles
   links:
@@ -14,9 +14,6 @@ about:
       href: https://www.linkedin.com/in/jenny-h%C3%B6glauer-62b429254/
 ---
 
-## Hi, I'm Jenny Höglauer
+## Welcome to my Portfolio! 
 
-I am a student at Dublin City University studying Global Business Studies 
-in a Double Degree program.
-
-This portfolio showcases my academic work, projects and professional development.
+I am Jenny and I'm happy to share some information about my academic work, experience and myself on this website.

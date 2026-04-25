@@ -63,4 +63,24 @@ for ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):
     ax.set_title(f'{name} - Confusion Matrix')
 plt.tight_layout()
 plt.show()
+
+#| echo: true
+#| fig-cap: "Most Important Features for Diabetes Prediction"
+
+importances = rf.feature_importances_
+feat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})
+feat_df = feat_df.sort_values('Importance', ascending=True)
+
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')
+ax.set_xlabel('Importance')
+plt.tight_layout()
+plt.show()
 ```
+## Conclusion
+
+::: {.callout-note}
+Random Forest outperforms the Decision Tree in recall, making it the 
+preferred model for clinical screening where missing a positive case 
+is more costly than a false alarm.
+:::

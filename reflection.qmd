@@ -4,27 +4,58 @@ title: "Reflection"
 
 ## What I Learned
 
-Throughout this module, I developed a range of technical and analytical skills 
-that I had not previously worked with in a structured way.
+Throughout this module, I developed a range of technical and analytical 
+skills that I had not previously worked with in a structured way. This 
+portfolio represents not just the final result, but the process of 
+learning, failing, and improving.
 
 ## Git and Version Control
 
-Learning to use Git and GitHub was one of the most valuable skills I acquired. 
-I now understand how to track changes, write meaningful commit messages, and 
-manage a project repository professionally.
+Learning to use Git and GitHub was one of the most valuable skills I 
+acquired. At first, the concept of commits, branches and push/pull felt 
+overwhelming. However, through consistent practice I now understand how 
+to track changes, write meaningful commit messages, and manage a project 
+repository professionally. I can see how these skills are essential in 
+any data or technology-driven workplace.
 
 ## Quarto and Web Development
 
 Building this ePortfolio with Quarto taught me how websites are structured 
-and how to customise them using HTML, CSS and YAML configuration.
+and how to customise them using YAML, SCSS and Markdown. I gained a deeper 
+appreciation for how design choices, typography, colour and layout affect 
+the user experience. One of my biggest challenges was configuring the 
+deployment pipeline through GitHub Pages, which required careful attention 
+to folder structure and settings.
 
-## Python and Machine Learning
+## Python and Data Analytics
 
-Working with Python for the Diabetes Prediction project deepened my understanding 
-of machine learning concepts such as Decision Trees, Random Forest, recall and 
-model evaluation.
+Working with Python for the Diabetes Prediction project deepened my 
+understanding of machine learning concepts such as Decision Trees, 
+Random Forest, recall and model evaluation. I learned that choosing 
+the right metric matters, for example in healthcare, minimising false negatives 
+is more important than overall accuracy.
+
+## Challenges and Growth
+
+This module pushed me outside my comfort zone. One of the most 
+persistent technical challenges I faced was a Windows Defender conflict 
+with Quarto's rendering process. Every time Quarto attempted to copy 
+image files into the docs folder, Windows Defender blocked the operation 
+with a PermissionDenied error. Resolving this required me to investigate 
+system-level settings, add folder exclusions to Windows Security, and 
+develop a structured debugging approach, skills I had never needed before.
+
+Beyond technical issues, I encountered moments of genuine frustration 
+where nothing seemed to work. Working through these challenges 
+independently taught me resilience and problem-solving skills that go 
+beyond the technical content itself. I learned that debugging is not 
+a sign of failure but it is a core part of working with real tools in 
+real environments.
 
 ## Looking Ahead
 
-These skills are directly applicable to my career goals in finance, strategy 
-and data analytics, where data-driven decision making is increasingly important.
+These skills are directly applicable to my career goals in finance, 
+strategy and data analytics, where data-driven decision making is 
+increasingly important. I plan to continue developing my Python skills 
+and explore tools such as SQL and Tableau to complement what I have 
+learned here.

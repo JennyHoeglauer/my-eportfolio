@@ -4,7 +4,9 @@ description: "A New Enterprise Development project creating a mental wellbeing a
 author: "Jenny Höglauer"
 date: "2026-04-02"
 categories: [Entrepreneurship, Business Development, App Design]
-image: ../../images/ned_team.jpeg
+image: ../../images/mockup.jpeg
+
+
 ---
 
 ## Overview
@@ -13,6 +15,16 @@ MindBoost is a mental wellbeing app developed as part of the New Enterprise
 Development module at Dublin City University. As **CEO** of the project, 
 I led a team of five students to design, research and pitch a digital 
 solution for young adults struggling with stress and anxiety.
+
+## App Flow
+
+```{mermaid}
+flowchart LR
+  A[Mood Check-in] --> B[AI Analysis]
+  B --> C[Personalised Tips]
+  C --> D[Daily Exercises]
+  D --> E[Therapist Access]
+```
 
 ## The Problem
 
@@ -29,8 +41,6 @@ MindBoost offers personalised daily mental wellbeing support through:
 - 🎯 **Short activities** that fit into a 5-minute daily routine
 - 👨‍⚕️ **Direct therapist access** for professional support
 
-![MindBoost App Mockup](../../images/Mockup.jpeg){width=50% fig-align="center"}
-
 ## Key Research Insights
 
 | Insight | Result |
@@ -39,14 +49,13 @@ MindBoost offers personalised daily mental wellbeing support through:
 | Appreciate direct therapist access | 67.6% |
 | Willing to pay €4.99+ per month | 35% |
 
+
 ## My Role
 
 As CEO, I was responsible for overall strategy, team coordination and 
 the final pitch presentation at DCU Business School.
 
-![MindBoost Team Presentation at DCU](../../images/Team_NED.jpeg){width=80% fig-align="center"}
 
-![MindBoost Pitch Deck](../../images/NED2.jpeg){width=80% fig-align="center"}
 
 ::: {.callout-note}
 This project was developed as part of the New Enterprise Development Programme at DCU Business School.

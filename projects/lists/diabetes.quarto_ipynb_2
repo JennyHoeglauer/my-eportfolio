@@ -1,0 +1,156 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Diabetes Prediction using Decision Trees and Random Forest\"\n",
+        "description: \"A machine learning study predicting Type 2 Diabetes using the Pima Indians Diabetes Database.\"\n",
+        "author: \"Jenny Höglauer\"\n",
+        "date: \"2026-04-20\"\n",
+        "categories: [Machine Learning, Python, Classification]\n",
+        "image: ../../images/jenny1.JPG\n",
+        "---\n",
+        "\n",
+        "## Overview\n",
+        "\n",
+        "This project applies Decision Tree and Random Forest classifiers to predict \n",
+        "Type 2 Diabetes using the Pima Indians Diabetes Database. The study compares \n",
+        "both models with a focus on recall, which is the clinically most relevant metric.\n",
+        "\n",
+        "## Setup"
+      ],
+      "id": "53a7359a"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn.tree import DecisionTreeClassifier\n",
+        "from sklearn.ensemble import RandomForestClassifier\n",
+        "from sklearn.metrics import confusion_matrix, classification_report\n",
+        "import matplotlib.pyplot as plt\n",
+        "import seaborn as sns"
+      ],
+      "id": "1f2b60c2",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Load Data"
+      ],
+      "id": "1fa9bb45"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "url = \"https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv\"\n",
+        "columns = ['Pregnancies','Glucose','BloodPressure','SkinThickness',\n",
+        "           'Insulin','BMI','DiabetesPedigreeFunction','Age','Outcome']\n",
+        "df = pd.read_csv(url, names=columns)\n",
+        "df.head()"
+      ],
+      "id": "d7423d87",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Train Models"
+      ],
+      "id": "62eb46e5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "X = df.drop('Outcome', axis=1)\n",
+        "y = df['Outcome']\n",
+        "X_train, X_test, y_train, y_test = train_test_split(\n",
+        "    X, y, test_size=0.2, random_state=42, stratify=y)\n",
+        "\n",
+        "dt = DecisionTreeClassifier(max_depth=5, random_state=42)\n",
+        "dt.fit(X_train, y_train)\n",
+        "\n",
+        "rf = RandomForestClassifier(n_estimators=100, random_state=42)\n",
+        "rf.fit(X_train, y_train)"
+      ],
+      "id": "9d243591",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Confusion Matrix"
+      ],
+      "id": "f46ae47f"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "fig, axes = plt.subplots(1, 2, figsize=(12, 4))\n",
+        "for ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n",
+        "    cm = confusion_matrix(y_test, model.predict(X_test))\n",
+        "    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n",
+        "                xticklabels=['No Diabetes','Diabetes'],\n",
+        "                yticklabels=['No Diabetes','Diabetes'])\n",
+        "    ax.set_title(f'{name} - Confusion Matrix')\n",
+        "plt.tight_layout()\n",
+        "plt.show()\n",
+        "\n",
+        "#| echo: true\n",
+        "#| fig-cap: \"Most Important Features for Diabetes Prediction\"\n",
+        "\n",
+        "importances = rf.feature_importances_\n",
+        "feat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})\n",
+        "feat_df = feat_df.sort_values('Importance', ascending=True)\n",
+        "\n",
+        "fig, ax = plt.subplots(figsize=(8, 5))\n",
+        "ax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')\n",
+        "ax.set_xlabel('Importance')\n",
+        "plt.tight_layout()\n",
+        "plt.show()"
+      ],
+      "id": "8eb6d642",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Conclusion\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "Random Forest outperforms the Decision Tree in recall, making it the \n",
+        "preferred model for clinical screening where missing a positive case \n",
+        "is more costly than a false alarm.\n",
+        ":::"
+      ],
+      "id": "eba2439f"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\Patrick\\AppData\\Local\\Python\\pythoncore-3.14-64\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

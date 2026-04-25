@@ -1,24 +1,178 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jenny Höglauer",
-    "section": "",
-    "text": "I am a student at Dublin City University studying Global Business Studies in a Double Degree program.\nThis portfolio showcases my academic work, projects and professional development."
-  },
-  {
-    "objectID": "index.html#hi-im-jenny-höglauer",
-    "href": "index.html#hi-im-jenny-höglauer",
-    "title": "Jenny Höglauer",
-    "section": "",
-    "text": "I am a student at Dublin City University studying Global Business Studies in a Double Degree program.\nThis portfolio showcases my academic work, projects and professional development."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
     "text": "Diabetes Prediction using Decision Trees and Random Forest\n\n\n\nMachine Learning\n\nPython\n\nClassification\n\n\n\nA machine learning study predicting Type 2 Diabetes using the Pima Indians Diabetes Database.\n\n\n\nApr 20, 2026\n\n\n\n\n\n\n\n\n\n\nMindBoost – Mental Wellbeing App\n\n\n\nEntrepreneurship\n\nBusiness Development\n\nApp Design\n\n\n\nA New Enterprise Development project creating a mental wellbeing app for young adults aged 18-30.\n\n\n\nApr 2, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am currently completing my Double Degree at ESB Business School in Germany and Dublin City University in Ireland, where I have developed a solid foundation in business, finance and strategic analysis. Studying in an international environment has shaped my perspective and strengthened my ability to understand how markets, institutions and economic systems interact across borders.\nMy interest in finance and strategy developed through both my studies and my practical experience in the banking sector. During my time at Landesbank Baden-Württemberg, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated environment. This experience sparked my curiosity for understanding financial systems not only at a company level, but within a broader economic and regulatory context.\nAlongside this, I developed a strong interest in data analytics. I enjoy working with data, identifying patterns and translating complex information into structured insights that support decision-making.\nOutside of my academic background, I have been actively involved in sports, particularly tennis. I led my school’s “Jugend trainiert für Olympia” team, which helped me develop a sense of responsibility and teamwork. I also took part in the German Chess Championship in 2015, which strengthened my analytical thinking and strategic approach to problem-solving.\nIn addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.\nLooking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context."
+  },
+  {
+    "objectID": "about.html#hi-im-jenny-höglauer",
+    "href": "about.html#hi-im-jenny-höglauer",
+    "title": "About Me",
+    "section": "",
+    "text": "I am currently completing my Double Degree at ESB Business School in Germany and Dublin City University in Ireland, where I have developed a solid foundation in business, finance and strategic analysis. Studying in an international environment has shaped my perspective and strengthened my ability to understand how markets, institutions and economic systems interact across borders.\nMy interest in finance and strategy developed through both my studies and my practical experience in the banking sector. During my time at Landesbank Baden-Württemberg, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated environment. This experience sparked my curiosity for understanding financial systems not only at a company level, but within a broader economic and regulatory context.\nAlongside this, I developed a strong interest in data analytics. I enjoy working with data, identifying patterns and translating complex information into structured insights that support decision-making.\nOutside of my academic background, I have been actively involved in sports, particularly tennis. I led my school’s “Jugend trainiert für Olympia” team, which helped me develop a sense of responsibility and teamwork. I also took part in the German Chess Championship in 2015, which strengthened my analytical thinking and strategic approach to problem-solving.\nIn addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.\nLooking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nPeriod\n\n\n\n\nGlobal Business Studies, BA (Double Degree)\nDublin City University, Ireland\nsince 09/2024\n\n\nInternational Management, BSc (Double Degree)\nESB Business School, Germany\n09/2022 – 09/2024\n\n\nChemical and Biological Engineering\nStuttgart University, Germany\n11/2020 – 04/2022\n\n\nBilingual A-Levels (English, French, Biology)\nHohenstaufen Gymnasium, Germany\n09/2012 – 07/2020"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\n\nLandesbank Baden-Württemberg (LBBW)\nIntern & Working Student | Stuttgart, Germany\nDuring my time at LBBW, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated banking environment. This experience sparked my curiosity for understanding financial systems at both a company and regulatory level.\n\n\nClick&Boat\nJunior Sales Executive Intern | Barcelona, Spain | 03/2025 – 08/2025\nWorked in B2C inbound sales and booking conversion in an international marketplace. Responsibilities included lead qualification, follow-up and CRM management."
+  },
+  {
+    "objectID": "about.html#personality",
+    "href": "about.html#personality",
+    "title": "About Me",
+    "section": "Personality",
+    "text": "Personality\nBeyond my academic and professional background, I am driven by curiosity and a passion for understanding complex systems.\nI have been actively involved in tennis throughout my life, leading my school’s “Jugend trainiert für Olympia” team. At the age of 12, I became the Württemberg Chess Champion in my age group and represented SC Grunbach at the German Chess Championship in 2015.\nI also have a personal interest in medicine and the healthcare sector, exploring the intersection of business, innovation and regulation in the pharmaceutical industry.\nLanguages: German (native) | English (fluent) | French (fluent)"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html",
+    "href": "projects/lists/mindboost.html",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "",
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#overview",
+    "href": "projects/lists/mindboost.html#overview",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "",
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#the-problem",
+    "href": "projects/lists/mindboost.html#the-problem",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "The Problem",
+    "text": "The Problem\nYoung people aged 18-30 face increasing levels of stress and anxiety, yet existing mental health solutions are often too clinical, expensive or time-consuming for daily use."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#our-solution",
+    "href": "projects/lists/mindboost.html#our-solution",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Our Solution",
+    "text": "Our Solution\nMindBoost offers personalised daily mental wellbeing support through:\n\n🧠 AI-personalised tips based on mood tracking\n📓 Daily check-ins with journaling and breathing exercises\n🎯 Short activities that fit into a 5-minute daily routine\n👨‍⚕️ Direct therapist access for professional support"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#key-research-insights",
+    "href": "projects/lists/mindboost.html#key-research-insights",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Key Research Insights",
+    "text": "Key Research Insights\n\n\n\nInsight\nResult\n\n\n\n\nUsers find daily check-ins highly useful\n67.8%\n\n\nAppreciate direct therapist access\n67.6%\n\n\nWilling to pay €4.99+ per month\n35%"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#my-role",
+    "href": "projects/lists/mindboost.html#my-role",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "My Role",
+    "text": "My Role\nAs CEO, I was responsible for overall strategy, team coordination and the final pitch presentation at DCU Business School.\n\n\n\n\n\n\nNote\n\n\n\nThis project was developed as part of the New Enterprise Development Programme at DCU Business School."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#data-analysis",
+    "href": "projects/lists/mindboost.html#data-analysis",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Data Analysis",
+    "text": "Data Analysis\n\n\nCode\nimport matplotlib.pyplot as plt\n\ninsights = ['Daily check-ins\\nhighly useful', 'Therapist\\naccess', 'Willing to pay\\n€4.99+/month']\nvalues = [67.8, 67.6, 35.0]\n\nfig, ax = plt.subplots(figsize=(8, 4))\nbars = ax.barh(insights, values, color=['#1B6B7B', '#29CADE', '#A0A4A8'])\nax.set_xlabel('Percentage (%)')\nax.set_xlim(0, 100)\nfor bar, val in zip(bars, values):\n    ax.text(val + 1, bar.get_y() + bar.get_height()/2, f'{val}%', va='center')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\nMindBoost User Research Results"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jenny Höglauer",
+    "section": "",
+    "text": "I am Jenny and I’m happy to share some information about my academic work, experience and myself on this website."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-portfolio",
+    "href": "index.html#welcome-to-my-portfolio",
+    "title": "Jenny Höglauer",
+    "section": "",
+    "text": "I am Jenny and I’m happy to share some information about my academic work, experience and myself on this website."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "📄 Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#jenny-höglauer",
+    "href": "cv.html#jenny-höglauer",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "📄 Download CV (PDF)"
+  },
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way. This portfolio represents not just the final result, but the process of learning, failing, and improving."
+  },
+  {
+    "objectID": "reflection.html#what-i-learned",
+    "href": "reflection.html#what-i-learned",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way. This portfolio represents not just the final result, but the process of learning, failing, and improving."
+  },
+  {
+    "objectID": "reflection.html#git-and-version-control",
+    "href": "reflection.html#git-and-version-control",
+    "title": "Reflection",
+    "section": "Git and Version Control",
+    "text": "Git and Version Control\nLearning to use Git and GitHub was one of the most valuable skills I acquired. At first, the concept of commits, branches and push/pull felt overwhelming. However, through consistent practice I now understand how to track changes, write meaningful commit messages, and manage a project repository professionally. I can see how these skills are essential in any data or technology-driven workplace."
+  },
+  {
+    "objectID": "reflection.html#quarto-and-web-development",
+    "href": "reflection.html#quarto-and-web-development",
+    "title": "Reflection",
+    "section": "Quarto and Web Development",
+    "text": "Quarto and Web Development\nBuilding this ePortfolio with Quarto taught me how websites are structured and how to customise them using YAML, SCSS and Markdown. I gained a deeper appreciation for how design choices — typography, colour, layout — affect the user experience. One of my biggest challenges was configuring the deployment pipeline through GitHub Pages, which required careful attention to folder structure and settings."
+  },
+  {
+    "objectID": "reflection.html#python-and-machine-learning",
+    "href": "reflection.html#python-and-machine-learning",
+    "title": "Reflection",
+    "section": "Python and Machine Learning",
+    "text": "Python and Machine Learning\nWorking with Python for the Diabetes Prediction project deepened my understanding of machine learning concepts such as Decision Trees, Random Forest, recall and model evaluation."
+  },
+  {
+    "objectID": "reflection.html#looking-ahead",
+    "href": "reflection.html#looking-ahead",
+    "title": "Reflection",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThese skills are directly applicable to my career goals in finance, strategy and data analytics, where data-driven decision making is increasingly important. I plan to continue developing my Python skills and explore tools such as SQL and Tableau to complement what I have learned here."
+  },
+  {
+    "objectID": "reflection.html#python-and-data-analytics",
+    "href": "reflection.html#python-and-data-analytics",
+    "title": "Reflection",
+    "section": "Python and Data Analytics",
+    "text": "Python and Data Analytics\nWorking with Python for the Diabetes Prediction project deepened my understanding of machine learning concepts such as Decision Trees, Random Forest, recall and model evaluation. I learned that choosing the right metric matters — in healthcare, minimising false negatives is more important than overall accuracy."
+  },
+  {
+    "objectID": "reflection.html#challenges-and-growth",
+    "href": "reflection.html#challenges-and-growth",
+    "title": "Reflection",
+    "section": "Challenges and Growth",
+    "text": "Challenges and Growth\nThis module pushed me outside my comfort zone. One of the most persistent technical challenges I faced was a Windows Defender conflict with Quarto’s rendering process. Every time Quarto attempted to copy image files into the docs folder, Windows Defender blocked the operation with a PermissionDenied error. Resolving this required me to investigate system-level settings, add folder exclusions to Windows Security, and develop a structured debugging approach — skills I had never needed before.\nBeyond technical issues, I encountered moments of genuine frustration where nothing seemed to work. Working through these challenges independently taught me resilience and problem-solving skills that go beyond the technical content itself. I learned that debugging is not a sign of failure — it is a core part of working with real tools in real environments."
   },
   {
     "objectID": "projects/lists/diabetes.html",
@@ -60,63 +214,28 @@
     "href": "projects/lists/diabetes.html#confusion-matrix",
     "title": "Diabetes Prediction using Decision Trees and Random Forest",
     "section": "Confusion Matrix",
-    "text": "Confusion Matrix\n\n\nCode\nfig, axes = plt.subplots(1, 2, figsize=(12, 4))\nfor ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n    cm = confusion_matrix(y_test, model.predict(X_test))\n    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n                xticklabels=['No Diabetes','Diabetes'],\n                yticklabels=['No Diabetes','Diabetes'])\n    ax.set_title(f'{name} - Confusion Matrix')\nplt.tight_layout()\nplt.show()"
+    "text": "Confusion Matrix\n\n\nCode\nfig, axes = plt.subplots(1, 2, figsize=(12, 4))\nfor ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n    cm = confusion_matrix(y_test, model.predict(X_test))\n    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n                xticklabels=['No Diabetes','Diabetes'],\n                yticklabels=['No Diabetes','Diabetes'])\n    ax.set_title(f'{name} - Confusion Matrix')\nplt.tight_layout()\nplt.show()\n\n#| echo: true\n#| fig-cap: \"Most Important Features for Diabetes Prediction\"\n\nimportances = rf.feature_importances_\nfeat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})\nfeat_df = feat_df.sort_values('Importance', ascending=True)\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')\nax.set_xlabel('Importance')\nplt.tight_layout()\nplt.show()"
   },
   {
-    "objectID": "reflection.html",
-    "href": "reflection.html",
-    "title": "Reflection",
-    "section": "",
-    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way."
-  },
-  {
-    "objectID": "reflection.html#what-i-learned",
-    "href": "reflection.html#what-i-learned",
-    "title": "Reflection",
-    "section": "",
-    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way."
-  },
-  {
-    "objectID": "reflection.html#git-and-version-control",
-    "href": "reflection.html#git-and-version-control",
-    "title": "Reflection",
-    "section": "Git and Version Control",
-    "text": "Git and Version Control\nLearning to use Git and GitHub was one of the most valuable skills I acquired. I now understand how to track changes, write meaningful commit messages, and manage a project repository professionally."
-  },
-  {
-    "objectID": "reflection.html#quarto-and-web-development",
-    "href": "reflection.html#quarto-and-web-development",
-    "title": "Reflection",
-    "section": "Quarto and Web Development",
-    "text": "Quarto and Web Development\nBuilding this ePortfolio with Quarto taught me how websites are structured and how to customise them using HTML, CSS and YAML configuration."
-  },
-  {
-    "objectID": "reflection.html#python-and-machine-learning",
-    "href": "reflection.html#python-and-machine-learning",
-    "title": "Reflection",
-    "section": "Python and Machine Learning",
-    "text": "Python and Machine Learning\nWorking with Python for the Diabetes Prediction project deepened my understanding of machine learning concepts such as Decision Trees, Random Forest, recall and model evaluation."
-  },
-  {
-    "objectID": "reflection.html#looking-ahead",
-    "href": "reflection.html#looking-ahead",
-    "title": "Reflection",
-    "section": "Looking Ahead",
-    "text": "Looking Ahead\nThese skills are directly applicable to my career goals in finance, strategy and data analytics, where data-driven decision making is increasingly important."
+    "objectID": "projects/lists/diabetes.html#conclusion",
+    "href": "projects/lists/diabetes.html#conclusion",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\n\n\n\n\nNote\n\n\n\nRandom Forest outperforms the Decision Tree in recall, making it the preferred model for clinical screening where missing a positive case is more costly than a false alarm."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact & References",
     "section": "",
-    "text": "Feel free to reach out to me via the following channels:\n\n📧 Email: jenny.hoeglauer@outlook.com\n🔗 GitHub: JennyHoeglauer\n💼 LinkedIn: Jenny Höglauer"
+    "text": "Feel free to reach out to me via the following channels:\n\n Email: jenny.hoeglauer@outlook.com\n GitHub: JennyHoeglauer\n LinkedIn: Jenny Höglauer"
   },
   {
     "objectID": "contact.html#contact",
     "href": "contact.html#contact",
     "title": "Contact & References",
     "section": "",
-    "text": "Feel free to reach out to me via the following channels:\n\n📧 Email: jenny.hoeglauer@outlook.com\n🔗 GitHub: JennyHoeglauer\n💼 LinkedIn: Jenny Höglauer"
+    "text": "Feel free to reach out to me via the following channels:\n\n Email: jenny.hoeglauer@outlook.com\n GitHub: JennyHoeglauer\n LinkedIn: Jenny Höglauer"
   },
   {
     "objectID": "contact.html#references",
@@ -124,5 +243,33 @@
     "title": "Contact & References",
     "section": "References",
     "text": "References\nAvailable upon request."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-education",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-education",
+    "title": "About Me",
+    "section": " Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nPeriod\n\n\n\n\nGlobal Business Studies, BA (Double Degree)\nDublin City University, Ireland\nsince 09/2024\n\n\nInternational Management, BSc (Double Degree)\nESB Business School, Germany\n09/2022 – 09/2024\n\n\nChemical and Biological Engineering\nStuttgart University, Germany\n11/2020 – 04/2022\n\n\nBilingual A-Levels (English, French, Biology)\nHohenstaufen Gymnasium, Germany\n09/2012 – 07/2020"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365203e7d7d-work-experience",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365203e7d7d-work-experience",
+    "title": "About Me",
+    "section": " Work Experience",
+    "text": "Work Experience\n\nLandesbank Baden-Württemberg (LBBW)\nIntern & Working Student | Stuttgart, Germany\nDuring my time at LBBW, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated banking environment. This experience sparked my curiosity for understanding financial systems at both a company and regulatory level.\n\n\nClick&Boat\nJunior Sales Executive Intern | Barcelona, Spain | 03/2025 – 08/2025\nWorked in B2C inbound sales and booking conversion in an international marketplace. Responsibilities included lead qualification, follow-up and CRM management."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120706572736f6e203e7d7d-personal-interests",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120706572736f6e203e7d7d-personal-interests",
+    "title": "About Me",
+    "section": " Personal Interests",
+    "text": "Personal Interests\nBeyond my academic and professional background, I am driven by curiosity and a passion for understanding complex systems.\nI have been actively involved in tennis throughout my life, leading my school’s “Jugend trainiert für Olympia” team. At the age of 12, I became the Württemberg Chess Champion in my age group and represented SC Grunbach at the German Chess Championship in 2015.\nI also have a personal interest in medicine and the healthcare sector, exploring the intersection of business, innovation and regulation in the pharmaceutical industry.\nLanguages: German (native) | English (fluent) | French (fluent)"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#app-flow",
+    "href": "projects/lists/mindboost.html#app-flow",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "App Flow",
+    "text": "App Flow\n\n\n\n\n\nflowchart LR\n  A[Mood Check-in] --&gt; B[AI Analysis]\n  B --&gt; C[Personalised Tips]\n  C --&gt; D[Daily Exercises]\n  D --&gt; E[Therapist Access]"
   }
 ]

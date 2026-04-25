@@ -20,7 +20,7 @@ Looking ahead, I aim to build a career at the intersection of finance, strategy 
 
 ---
 
-## Education
+## {{< fa graduation-cap >}} Education
 
 | Degree | Institution | Period |
 |--------|-------------|--------|
@@ -29,12 +29,9 @@ Looking ahead, I aim to build a career at the intersection of finance, strategy 
 | Chemical and Biological Engineering | Stuttgart University, Germany | 11/2020 – 04/2022 |
 | Bilingual A-Levels (English, French, Biology) | Hohenstaufen Gymnasium, Germany | 09/2012 – 07/2020 |
 
-![Dublin City University, Ireland](images/Ireland.jpeg){width=60% fig-align="center"}
-![Dublin City University, Ireland](images/DCU.jpg){width=60% fig-align="center"}
-
 ---
 
-## Work Experience
+## {{< fa briefcase >}} Work Experience
 
 ### Landesbank Baden-Württemberg (LBBW)
 **Intern & Working Student** | Stuttgart, Germany
@@ -51,9 +48,10 @@ Worked in B2C inbound sales and booking conversion in an international
 marketplace. Responsibilities included lead qualification, follow-up and 
 CRM management.
 
+
 ---
 
-## Personality
+## {{< fa person >}} Personal Interests 
 
 Beyond my academic and professional background, I am driven by curiosity 
 and a passion for understanding complex systems.
@@ -63,9 +61,7 @@ school's *"Jugend trainiert für Olympia"* team. At the age of 12, I became
 the **Württemberg Chess Champion** in my age group and represented SC Grunbach 
 at the German Chess Championship in 2015.
 
-::: {style="max-width: 300px; margin: auto;"}
-{{< video images/tennis.mp4 >}}
-:::
+
 
 I also have a personal interest in medicine and the healthcare sector, 
 exploring the intersection of business, innovation and regulation in the 
