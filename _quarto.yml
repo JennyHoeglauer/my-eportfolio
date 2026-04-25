@@ -6,7 +6,7 @@ website:
   title: "Jenny's E-Portfolio"
   favicon: images/favicon.ico
   navbar:
-    logo: images/logo.png
+    logo: https://i.imgur.com/tnyZbgD.png
     background: primary
     left:
       - href: index.qmd
