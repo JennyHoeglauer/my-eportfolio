@@ -2,6 +2,6 @@
 title: "Curriculum Vitae"
 ---
 
-## Jenny Höglauer
+## Curriculum Vitae
 
-[📄 Download CV (PDF)](cv/CV.pdf)
+[{{< fa file-pdf >}} Download CV](cv/CV.pdf){target="_blank"}
