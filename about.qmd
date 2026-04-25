@@ -29,17 +29,23 @@ Looking ahead, I aim to build a career at the intersection of finance, strategy 
 | Chemical and Biological Engineering | Stuttgart University, Germany | 11/2020 – 04/2022 |
 | Bilingual A-Levels (English, French, Biology) | Hohenstaufen Gymnasium, Germany | 09/2012 – 07/2020 |
 
+![Dublin City University](images/dcu.jpg){width=80% fig-align="center"}
+
+![Studying in Ireland](images/ireland.jpeg){width=70% fig-align="center"}
+
 ---
 
 ## {{< fa briefcase >}} Work Experience
 
 ### Landesbank Baden-Württemberg (LBBW)
-**Intern & Working Student** | Stuttgart, Germany
+**Intern & Working Student** | Stuttgart, Germany | 07/2023 – 09/2024
 
-During my time at LBBW, I worked on market and competitive analyses and gained 
+During my internship I worked on market and competitive analyses and gained 
 insights into how strategic decisions are developed in a regulated banking 
-environment. This experience sparked my curiosity for understanding financial 
-systems at both a company and regulatory level.
+environment. As a working student in the **Ideas Management and Process Consulting** 
+department, I supported internal innovation processes and contributed to 
+process optimisation initiatives. This experience sparked my curiosity for 
+understanding financial systems at both a company and regulatory level.
 
 ### Click&Boat
 **Junior Sales Executive Intern** | Barcelona, Spain | 03/2025 – 08/2025
@@ -48,7 +54,9 @@ Worked in B2C inbound sales and booking conversion in an international
 marketplace. Responsibilities included lead qualification, follow-up and 
 CRM management.
 
+![Barcelona](images/barcelona.jpeg){width=70% fig-align="center"}
 
+![Spain](images/spain.jpeg){width=70% fig-align="center"}
 ---
 
 ## {{< fa person >}} Personal Interests 
@@ -61,10 +69,14 @@ school's *"Jugend trainiert für Olympia"* team. At the age of 12, I became
 the **Württemberg Chess Champion** in my age group and represented SC Grunbach 
 at the German Chess Championship in 2015.
 
+![Chess Championship](images/chess.jpeg){width=60% fig-align="center"}
 
+![IMX Double Degree](images/marketing.jpeg){width=70% fig-align="center"}
+
+![Flying Experience](images/airplane.jpeg){width=70% fig-align="center"}
 
 I also have a personal interest in medicine and the healthcare sector, 
 exploring the intersection of business, innovation and regulation in the 
 pharmaceutical industry.
 
-**Languages:** German (native) | English (fluent) | French (fluent)
+**Languages:** German (native) | English (fluent) | French (fluent) | Russian (good knowledge)
