@@ -1,0 +1,254 @@
+[
+  {
+    "objectID": "reflection.html",
+    "href": "reflection.html",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way. This portfolio represents not just the final result, but the process of learning, failing, and improving."
+  },
+  {
+    "objectID": "reflection.html#what-i-learned",
+    "href": "reflection.html#what-i-learned",
+    "title": "Reflection",
+    "section": "",
+    "text": "Throughout this module, I developed a range of technical and analytical skills that I had not previously worked with in a structured way. This portfolio represents not just the final result, but the process of learning, failing, and improving."
+  },
+  {
+    "objectID": "reflection.html#git-and-version-control",
+    "href": "reflection.html#git-and-version-control",
+    "title": "Reflection",
+    "section": "Git and Version Control",
+    "text": "Git and Version Control\nLearning to use Git and GitHub was one of the most valuable skills I acquired. At first, the concept of commits, branches and push/pull felt overwhelming. However, through consistent practice I now understand how to track changes, write meaningful commit messages, and manage a project repository professionally. I can see how these skills are essential in any data or technology-driven workplace."
+  },
+  {
+    "objectID": "reflection.html#quarto-and-web-development",
+    "href": "reflection.html#quarto-and-web-development",
+    "title": "Reflection",
+    "section": "Quarto and Web Development",
+    "text": "Quarto and Web Development\nBuilding this ePortfolio with Quarto taught me how websites are structured and how to customise them using YAML, SCSS and Markdown. I gained a deeper appreciation for how design choices, typography, colour and layout affect the user experience. One of my biggest challenges was configuring the deployment pipeline through GitHub Pages, which required careful attention to folder structure and settings."
+  },
+  {
+    "objectID": "reflection.html#python-and-data-analytics",
+    "href": "reflection.html#python-and-data-analytics",
+    "title": "Reflection",
+    "section": "Python and Data Analytics",
+    "text": "Python and Data Analytics\nWorking with Python for the Diabetes Prediction project deepened my understanding of machine learning concepts such as Decision Trees, Random Forest, recall and model evaluation. I learned that choosing the right metric matters, for example in healthcare, minimising false negatives is more important than overall accuracy."
+  },
+  {
+    "objectID": "reflection.html#challenges-and-growth",
+    "href": "reflection.html#challenges-and-growth",
+    "title": "Reflection",
+    "section": "Challenges and Growth",
+    "text": "Challenges and Growth\nThis module pushed me outside my comfort zone. One of the most persistent technical challenges I faced was a Windows Defender conflict with Quarto’s rendering process. Every time Quarto attempted to copy image files into the docs folder, Windows Defender blocked the operation with a PermissionDenied error. Resolving this required me to investigate system-level settings, add folder exclusions to Windows Security, and develop a structured debugging approach, skills I had never needed before.\nBeyond technical issues, I encountered moments of genuine frustration where nothing seemed to work. Working through these challenges independently taught me resilience and problem-solving skills that go beyond the technical content itself. I learned that debugging is not a sign of failure but it is a core part of working with real tools in real environments."
+  },
+  {
+    "objectID": "reflection.html#looking-ahead",
+    "href": "reflection.html#looking-ahead",
+    "title": "Reflection",
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\nThese skills are directly applicable to my career goals in finance, strategy and data analytics, where data-driven decision making is increasingly important. I plan to continue developing my Python skills and explore tools such as SQL and Tableau to complement what I have learned here."
+  },
+  {
+    "objectID": "projects/lists/diabetes.html",
+    "href": "projects/lists/diabetes.html",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "",
+    "text": "This project applies Decision Tree and Random Forest classifiers to predict Type 2 Diabetes using the Pima Indians Diabetes Database. The study compares both models with a focus on recall, which is the clinically most relevant metric."
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#overview",
+    "href": "projects/lists/diabetes.html#overview",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "",
+    "text": "This project applies Decision Tree and Random Forest classifiers to predict Type 2 Diabetes using the Pima Indians Diabetes Database. The study compares both models with a focus on recall, which is the clinically most relevant metric."
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#setup",
+    "href": "projects/lists/diabetes.html#setup",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Setup",
+    "text": "Setup\n\n\nCode\nimport pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.metrics import confusion_matrix, classification_report\nimport matplotlib.pyplot as plt\nimport seaborn as sns"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#load-data",
+    "href": "projects/lists/diabetes.html#load-data",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Load Data",
+    "text": "Load Data\n\n\nCode\nurl = \"https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv\"\ncolumns = ['Pregnancies','Glucose','BloodPressure','SkinThickness',\n           'Insulin','BMI','DiabetesPedigreeFunction','Age','Outcome']\ndf = pd.read_csv(url, names=columns)\ndf.head()\n\n\n\n\n\n\n\n\n\nPregnancies\nGlucose\nBloodPressure\nSkinThickness\nInsulin\nBMI\nDiabetesPedigreeFunction\nAge\nOutcome\n\n\n\n\n0\n6\n148\n72\n35\n0\n33.6\n0.627\n50\n1\n\n\n1\n1\n85\n66\n29\n0\n26.6\n0.351\n31\n0\n\n\n2\n8\n183\n64\n0\n0\n23.3\n0.672\n32\n1\n\n\n3\n1\n89\n66\n23\n94\n28.1\n0.167\n21\n0\n\n\n4\n0\n137\n40\n35\n168\n43.1\n2.288\n33\n1"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#train-models",
+    "href": "projects/lists/diabetes.html#train-models",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Train Models",
+    "text": "Train Models\n\n\nCode\nX = df.drop('Outcome', axis=1)\ny = df['Outcome']\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42, stratify=y)\n\ndt = DecisionTreeClassifier(max_depth=5, random_state=42)\ndt.fit(X_train, y_train)\n\nrf = RandomForestClassifier(n_estimators=100, random_state=42)\nrf.fit(X_train, y_train)\n\n\nRandomForestClassifier(random_state=42)In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.RandomForestClassifier?Documentation for RandomForestClassifieriFitted\n        \n            \n                Parameters\n                \n\n\n\n\n\n\n\n\n\nn_estimators n_estimators: int, default=100\n\nThe number of trees in the forest.\n\n.. versionchanged:: 0.22\nThe default value of ``n_estimators`` changed from 10 to 100\nin 0.22.\n100\n\n\n\ncriterion criterion: {\"gini\", \"entropy\", \"log_loss\"}, default=\"gini\"\n\nThe function to measure the quality of a split. Supported criteria are\n\"gini\" for the Gini impurity and \"log_loss\" and \"entropy\" both for the\nShannon information gain, see :ref:`tree_mathematical_formulation`.\nNote: This parameter is tree-specific.\n'gini'\n\n\n\nmax_depth max_depth: int, default=None\n\nThe maximum depth of the tree. If None, then nodes are expanded until\nall leaves are pure or until all leaves contain less than\nmin_samples_split samples.\nNone\n\n\n\nmin_samples_split min_samples_split: int or float, default=2\n\nThe minimum number of samples required to split an internal node:\n\n- If int, then consider `min_samples_split` as the minimum number.\n- If float, then `min_samples_split` is a fraction and\n`ceil(min_samples_split * n_samples)` are the minimum\nnumber of samples for each split.\n\n.. versionchanged:: 0.18\nAdded float values for fractions.\n2\n\n\n\nmin_samples_leaf min_samples_leaf: int or float, default=1\n\nThe minimum number of samples required to be at a leaf node.\nA split point at any depth will only be considered if it leaves at\nleast ``min_samples_leaf`` training samples in each of the left and\nright branches. This may have the effect of smoothing the model,\nespecially in regression.\n\n- If int, then consider `min_samples_leaf` as the minimum number.\n- If float, then `min_samples_leaf` is a fraction and\n`ceil(min_samples_leaf * n_samples)` are the minimum\nnumber of samples for each node.\n\n.. versionchanged:: 0.18\nAdded float values for fractions.\n1\n\n\n\nmin_weight_fraction_leaf min_weight_fraction_leaf: float, default=0.0\n\nThe minimum weighted fraction of the sum total of weights (of all\nthe input samples) required to be at a leaf node. Samples have\nequal weight when sample_weight is not provided.\n0.0\n\n\n\nmax_features max_features: {\"sqrt\", \"log2\", None}, int or float, default=\"sqrt\"\n\nThe number of features to consider when looking for the best split:\n\n- If int, then consider `max_features` features at each split.\n- If float, then `max_features` is a fraction and\n`max(1, int(max_features * n_features_in_))` features are considered at each\nsplit.\n- If \"sqrt\", then `max_features=sqrt(n_features)`.\n- If \"log2\", then `max_features=log2(n_features)`.\n- If None, then `max_features=n_features`.\n\n.. versionchanged:: 1.1\nThe default of `max_features` changed from `\"auto\"` to `\"sqrt\"`.\n\nNote: the search for a split does not stop until at least one\nvalid partition of the node samples is found, even if it requires to\neffectively inspect more than ``max_features`` features.\n'sqrt'\n\n\n\nmax_leaf_nodes max_leaf_nodes: int, default=None\n\nGrow trees with ``max_leaf_nodes`` in best-first fashion.\nBest nodes are defined as relative reduction in impurity.\nIf None then unlimited number of leaf nodes.\nNone\n\n\n\nmin_impurity_decrease min_impurity_decrease: float, default=0.0\n\nA node will be split if this split induces a decrease of the impurity\ngreater than or equal to this value.\n\nThe weighted impurity decrease equation is the following::\n\nN_t / N * (impurity - N_t_R / N_t * right_impurity\n- N_t_L / N_t * left_impurity)\n\nwhere ``N`` is the total number of samples, ``N_t`` is the number of\nsamples at the current node, ``N_t_L`` is the number of samples in the\nleft child, and ``N_t_R`` is the number of samples in the right child.\n\n``N``, ``N_t``, ``N_t_R`` and ``N_t_L`` all refer to the weighted sum,\nif ``sample_weight`` is passed.\n\n.. versionadded:: 0.19\n0.0\n\n\n\nbootstrap bootstrap: bool, default=True\n\nWhether bootstrap samples are used when building trees. If False, the\nwhole dataset is used to build each tree.\nTrue\n\n\n\noob_score oob_score: bool or callable, default=False\n\nWhether to use out-of-bag samples to estimate the generalization score.\nBy default, :func:`~sklearn.metrics.accuracy_score` is used.\nProvide a callable with signature `metric(y_true, y_pred)` to use a\ncustom metric. Only available if `bootstrap=True`.\n\nFor an illustration of out-of-bag (OOB) error estimation, see the example\n:ref:`sphx_glr_auto_examples_ensemble_plot_ensemble_oob.py`.\nFalse\n\n\n\nn_jobs n_jobs: int, default=None\n\nThe number of jobs to run in parallel. :meth:`fit`, :meth:`predict`,\n:meth:`decision_path` and :meth:`apply` are all parallelized over the\ntrees. ``None`` means 1 unless in a :obj:`joblib.parallel_backend`\ncontext. ``-1`` means using all processors. See :term:`Glossary\n` for more details.\nNone\n\n\n\nrandom_state random_state: int, RandomState instance or None, default=None\n\nControls both the randomness of the bootstrapping of the samples used\nwhen building trees (if ``bootstrap=True``) and the sampling of the\nfeatures to consider when looking for the best split at each node\n(if ``max_features &lt; n_features``).\nSee :term:`Glossary ` for details.\n42\n\n\n\nverbose verbose: int, default=0\n\nControls the verbosity when fitting and predicting.\n0\n\n\n\nwarm_start warm_start: bool, default=False\n\nWhen set to ``True``, reuse the solution of the previous call to fit\nand add more estimators to the ensemble, otherwise, just fit a whole\nnew forest. See :term:`Glossary ` and\n:ref:`tree_ensemble_warm_start` for details.\nFalse\n\n\n\nclass_weight class_weight: {\"balanced\", \"balanced_subsample\"}, dict or list of dicts, default=None\n\nWeights associated with classes in the form ``{class_label: weight}``.\nIf not given, all classes are supposed to have weight one. For\nmulti-output problems, a list of dicts can be provided in the same\norder as the columns of y.\n\nNote that for multioutput (including multilabel) weights should be\ndefined for each class of every column in its own dict. For example,\nfor four-class multilabel classification weights should be\n[{0: 1, 1: 1}, {0: 1, 1: 5}, {0: 1, 1: 1}, {0: 1, 1: 1}] instead of\n[{1:1}, {2:5}, {3:1}, {4:1}].\n\nThe \"balanced\" mode uses the values of y to automatically adjust\nweights inversely proportional to class frequencies in the input data\nas ``n_samples / (n_classes * np.bincount(y))``\n\nThe \"balanced_subsample\" mode is the same as \"balanced\" except that\nweights are computed based on the bootstrap sample for every tree\ngrown.\n\nFor multi-output, the weights of each column of y will be multiplied.\n\nNote that these weights will be multiplied with sample_weight (passed\nthrough the fit method) if sample_weight is specified.\nNone\n\n\n\nccp_alpha ccp_alpha: non-negative float, default=0.0\n\nComplexity parameter used for Minimal Cost-Complexity Pruning. The\nsubtree with the largest cost complexity that is smaller than\n``ccp_alpha`` will be chosen. By default, no pruning is performed. See\n:ref:`minimal_cost_complexity_pruning` for details. See\n:ref:`sphx_glr_auto_examples_tree_plot_cost_complexity_pruning.py`\nfor an example of such pruning.\n\n.. versionadded:: 0.22\n0.0\n\n\n\nmax_samples max_samples: int or float, default=None\n\nIf bootstrap is True, the number of samples to draw from X\nto train each base estimator.\n\n- If None (default), then draw `X.shape[0]` samples.\n- If int, then draw `max_samples` samples.\n- If float, then draw `max(round(n_samples * max_samples), 1)` samples. Thus,\n`max_samples` should be in the interval `(0.0, 1.0]`.\n\n.. versionadded:: 0.22\nNone\n\n\n\nmonotonic_cst monotonic_cst: array-like of int of shape (n_features), default=None\n\nIndicates the monotonicity constraint to enforce on each feature.\n- 1: monotonic increase\n- 0: no constraint\n- -1: monotonic decrease\n\nIf monotonic_cst is None, no constraints are applied.\n\nMonotonicity constraints are not supported for:\n- multiclass classifications (i.e. when `n_classes &gt; 2`),\n- multioutput classifications (i.e. when `n_outputs_ &gt; 1`),\n- classifications trained on data with missing values.\n\nThe constraints hold over the probability of the positive class.\n\nRead more in the :ref:`User Guide `.\n\n.. versionadded:: 1.4\nNone"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#confusion-matrix",
+    "href": "projects/lists/diabetes.html#confusion-matrix",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Confusion Matrix",
+    "text": "Confusion Matrix\n\n\nCode\nfig, axes = plt.subplots(1, 2, figsize=(12, 4))\nfor ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n    cm = confusion_matrix(y_test, model.predict(X_test))\n    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n                xticklabels=['No Diabetes','Diabetes'],\n                yticklabels=['No Diabetes','Diabetes'])\n    ax.set_title(f'{name} - Confusion Matrix')\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#feature-importance",
+    "href": "projects/lists/diabetes.html#feature-importance",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Feature Importance",
+    "text": "Feature Importance\n\n\nCode\nimportances = rf.feature_importances_\nfeat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})\nfeat_df = feat_df.sort_values('Importance', ascending=True)\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')\nax.set_xlabel('Importance')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\nMost Important Features for Diabetes Prediction"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#conclusion",
+    "href": "projects/lists/diabetes.html#conclusion",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\n\n\n\n\nNote\n\n\n\nRandom Forest outperforms the Decision Tree in recall, making it the preferred model for clinical screening where missing a positive case is more costly than a false alarm."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jenny Höglauer",
+    "section": "",
+    "text": "I am Jenny Höglauer, a Double Degree student in Global Business Studies at Dublin City University, Ireland and International Management at ESB Business School, Germany. Currently based in Dublin, I am combining my passion for finance, strategy and data analytics with hands-on international experience.\nThis portfolio showcases my academic projects, professional experience and personal development, from machine learning and entrepreneurship to international business and beyond.\nFeel free to explore my work and get in touch!"
+  },
+  {
+    "objectID": "index.html#welcome-to-my-portfolio",
+    "href": "index.html#welcome-to-my-portfolio",
+    "title": "Jenny Höglauer",
+    "section": "",
+    "text": "I am Jenny Höglauer, a Double Degree student in Global Business Studies at Dublin City University, Ireland and International Management at ESB Business School, Germany. Currently based in Dublin, I am combining my passion for finance, strategy and data analytics with hands-on international experience.\nThis portfolio showcases my academic projects, professional experience and personal development, from machine learning and entrepreneurship to international business and beyond.\nFeel free to explore my work and get in touch!"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & References",
+    "section": "",
+    "text": "Feel free to reach out to me via the following channels:\n\n Email: jenny.hoeglauer@outlook.com\n GitHub: JennyHoeglauer\n LinkedIn: Jenny Höglauer"
+  },
+  {
+    "objectID": "contact.html#contact",
+    "href": "contact.html#contact",
+    "title": "Contact & References",
+    "section": "",
+    "text": "Feel free to reach out to me via the following channels:\n\n Email: jenny.hoeglauer@outlook.com\n GitHub: JennyHoeglauer\n LinkedIn: Jenny Höglauer"
+  },
+  {
+    "objectID": "contact.html#references",
+    "href": "contact.html#references",
+    "title": "Contact & References",
+    "section": "References",
+    "text": "References\nAvailable upon request."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am currently completing my Double Degree at ESB Business School in Germany and Dublin City University in Ireland, where I have developed a solid foundation in business, finance and strategic analysis. Studying in an international environment has shaped my perspective and strengthened my ability to understand how markets, institutions and economic systems interact across borders.\nMy interest in finance and strategy developed through both my studies and my practical experience in the banking sector. During my time at Landesbank Baden-Württemberg, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated environment. This experience sparked my curiosity for understanding financial systems not only at a company level, but within a broader economic and regulatory context.\nAlongside this, I developed a strong interest in data analytics. I enjoy working with data, identifying patterns and translating complex information into structured insights that support decision-making.\nOutside of my academic background, I have been actively involved in sports, particularly tennis. I led my school’s “Jugend trainiert für Olympia” team, which helped me develop a sense of responsibility and teamwork. I also took part in the German Chess Championship in 2015, which strengthened my analytical thinking and strategic approach to problem-solving.\nIn addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.\nLooking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context."
+  },
+  {
+    "objectID": "about.html#hi-im-jenny-höglauer",
+    "href": "about.html#hi-im-jenny-höglauer",
+    "title": "About Me",
+    "section": "",
+    "text": "I am currently completing my Double Degree at ESB Business School in Germany and Dublin City University in Ireland, where I have developed a solid foundation in business, finance and strategic analysis. Studying in an international environment has shaped my perspective and strengthened my ability to understand how markets, institutions and economic systems interact across borders.\nMy interest in finance and strategy developed through both my studies and my practical experience in the banking sector. During my time at Landesbank Baden-Württemberg, I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated environment. This experience sparked my curiosity for understanding financial systems not only at a company level, but within a broader economic and regulatory context.\nAlongside this, I developed a strong interest in data analytics. I enjoy working with data, identifying patterns and translating complex information into structured insights that support decision-making.\nOutside of my academic background, I have been actively involved in sports, particularly tennis. I led my school’s “Jugend trainiert für Olympia” team, which helped me develop a sense of responsibility and teamwork. I also took part in the German Chess Championship in 2015, which strengthened my analytical thinking and strategic approach to problem-solving.\nIn addition, I have a personal interest in medicine and the healthcare sector, which has led me to explore the pharmaceutical industry and its connection to business, innovation and regulation.\nLooking ahead, I aim to build a career at the intersection of finance, strategy and policy, where I can contribute to understanding complex systems and supporting informed decision-making in an international context."
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-education",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612067726164756174696f6e2d636170203e7d7d-education",
+    "title": "About Me",
+    "section": " Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nPeriod\n\n\n\n\nGlobal Business Studies, BA (Double Degree)\nDublin City University, Ireland\nsince 09/2024\n\n\nInternational Management, BSc (Double Degree)\nESB Business School, Germany\n09/2022 – 09/2024\n\n\nChemical and Biological Engineering\nStuttgart University, Germany\n11/2020 – 04/2022\n\n\nBilingual A-Levels (English, French, Biology)\nHohenstaufen Gymnasium, Germany\n09/2012 – 07/2020\n\n\n\n\n\n\nDublin City University\n\n\n\n\n\nStudying in Ireland"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365203e7d7d-work-experience",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120627269656663617365203e7d7d-work-experience",
+    "title": "About Me",
+    "section": " Work Experience",
+    "text": "Work Experience\n\nLandesbank Baden-Württemberg (LBBW)\nIntern & Working Student | Stuttgart, Germany | 07/2023 – 09/2024\nDuring my internship I worked on market and competitive analyses and gained insights into how strategic decisions are developed in a regulated banking environment. As a working student in the Ideas Management and Process Consulting department, I supported internal innovation processes and contributed to process optimisation initiatives. This experience sparked my curiosity for understanding financial systems at both a company and regulatory level.\n\n\nClick&Boat\nJunior Sales Executive Intern | Barcelona, Spain | 03/2025 – 08/2025\nWorked in B2C inbound sales and booking conversion in an international marketplace. Responsibilities included lead qualification, follow-up and CRM management. I developed strong sales techniques including upselling and customer relationship management, while working across three languages, namely English, German and French, in a fast-paced international environment.\n\n\n\nBarcelona"
+  },
+  {
+    "objectID": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120706572736f6e203e7d7d-personal-interests",
+    "href": "about.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120706572736f6e203e7d7d-personal-interests",
+    "title": "About Me",
+    "section": " Personal Interests",
+    "text": "Personal Interests\nBeyond my academic and professional background, I am driven by curiosity and a passion for understanding complex systems.\nI have been actively involved in tennis throughout my life, leading my school’s “Jugend trainiert für Olympia” team. At the age of 12, I became the Württemberg Chess Champion in my age group and represented SC Grunbach at the German Chess Championship in 2015.\n\n\n\nChess Championship\n\n\n\n\n\nIMX Double Degree\n\n\nI also have a personal interest in medicine and the healthcare sector, exploring the intersection of business, innovation and regulation in the pharmaceutical industry.\nLanguages: German (native) | English (fluent) | French (fluent) | Russian (good knowledge)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV"
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download CV"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Diabetes Prediction using Decision Trees and Random Forest\n\n\n\nMachine Learning\n\nPython\n\nClassification\n\n\n\nA machine learning study predicting Type 2 Diabetes using the Pima Indians Diabetes Database.\n\n\n\nApr 20, 2026\n\n\n\n\n\n\n\n\n\n\nMindBoost – Mental Wellbeing App\n\n\n\nEntrepreneurship\n\nBusiness Development\n\nApp Design\n\n\n\nA New Enterprise Development project creating a mental wellbeing app for young adults aged 18-30.\n\n\n\nApr 2, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html",
+    "href": "projects/lists/mindboost.html",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "",
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety.\n\n\n\nMindBoost Pitch Flyer"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#overview",
+    "href": "projects/lists/mindboost.html#overview",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "",
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety.\n\n\n\nMindBoost Pitch Flyer"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#app-flow",
+    "href": "projects/lists/mindboost.html#app-flow",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "App Flow",
+    "text": "App Flow\n\n\n\n\n\nflowchart LR\n  A[Mood Check-in] --&gt; B[AI Analysis]\n  B --&gt; C[Personalised Tips]\n  C --&gt; D[Daily Exercises]\n  D --&gt; E[Therapist Access]\n\n\n\n\n\n\n\n\n\nMindBoost App Mockup"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#the-problem",
+    "href": "projects/lists/mindboost.html#the-problem",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "The Problem",
+    "text": "The Problem\nYoung people aged 18-30 face increasing levels of stress and anxiety, yet existing mental health solutions are often too clinical, expensive or time-consuming for daily use."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#our-solution",
+    "href": "projects/lists/mindboost.html#our-solution",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Our Solution",
+    "text": "Our Solution\nMindBoost offers personalised daily mental wellbeing support through:\n\n🧠 AI-personalised tips based on mood tracking\n📓 Daily check-ins with journaling and breathing exercises\n🎯 Short activities that fit into a 5-minute daily routine\n👨‍⚕️ Direct therapist access for professional support\n\n\n\n\nMindBoost Website"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#key-research-insights",
+    "href": "projects/lists/mindboost.html#key-research-insights",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Key Research Insights",
+    "text": "Key Research Insights\n\n\n\nInsight\nResult\n\n\n\n\nUsers find daily check-ins highly useful\n67.8%\n\n\nAppreciate direct therapist access\n67.6%\n\n\nWilling to pay €4.99+ per month\n35%"
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#my-role",
+    "href": "projects/lists/mindboost.html#my-role",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "My Role",
+    "text": "My Role\nAs CEO, I was responsible for overall strategy, team coordination and the final pitch presentation at DCU Business School. The project culminated in a live pitch at DCU Business School, where our team presented MindBoost to a panel of judges and industry professionals. The experience gave us valuable exposure to real-world entrepreneurship and investor communication.\n\n\n\nMindBoost Team at NED Pitch\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis project was developed as part of the New Enterprise Development Programme at DCU Business School."
+  },
+  {
+    "objectID": "projects/lists/mindboost.html#data-analysis",
+    "href": "projects/lists/mindboost.html#data-analysis",
+    "title": "MindBoost – Mental Wellbeing App",
+    "section": "Data Analysis",
+    "text": "Data Analysis\n\n\nCode\nimport matplotlib.pyplot as plt\n\ninsights = ['Daily check-ins\\nhighly useful', 'Therapist\\naccess', 'Willing to pay\\n€4.99+/month']\nvalues = [67.8, 67.6, 35.0]\n\nfig, ax = plt.subplots(figsize=(8, 4))\nbars = ax.barh(insights, values, color=['#1B6B7B', '#29CADE', '#A0A4A8'])\nax.set_xlabel('Percentage (%)')\nax.set_xlim(0, 100)\nfor bar, val in zip(bars, values):\n    ax.text(val + 1, bar.get_y() + bar.get_height()/2, f'{val}%', va='center')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\nMindBoost User Research Results"
+  }
+]
