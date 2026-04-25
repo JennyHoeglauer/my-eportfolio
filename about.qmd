@@ -50,13 +50,13 @@ understanding financial systems at both a company and regulatory level.
 ### Click&Boat
 **Junior Sales Executive Intern** | Barcelona, Spain | 03/2025 – 08/2025
 
-Worked in B2C inbound sales and booking conversion in an international 
-marketplace. Responsibilities included lead qualification, follow-up and 
-CRM management.
+Worked in B2C inbound sales and booking conversion in an international marketplace.
+Responsibilities included lead qualification, follow-up and CRM management. 
+I developed strong sales techniques including upselling 
+and customer relationship management, while working across three languages, namely English, German and French, in a fast-paced international environment.
 
 ![Barcelona](images/barcelona.jpeg){width=70% fig-align="center"}
 
-![Spain](images/spain.jpeg){width=70% fig-align="center"}
 ---
 
 ## {{< fa person >}} Personal Interests 
@@ -72,8 +72,6 @@ at the German Chess Championship in 2015.
 ![Chess Championship](images/chess.jpeg){width=60% fig-align="center"}
 
 ![IMX Double Degree](images/marketing.jpeg){width=70% fig-align="center"}
-
-![Flying Experience](images/airplane.jpeg){width=70% fig-align="center"}
 
 I also have a personal interest in medicine and the healthcare sector, 
 exploring the intersection of business, innovation and regulation in the 
