@@ -88,7 +88,14 @@
     "href": "projects/lists/diabetes.html#confusion-matrix",
     "title": "Diabetes Prediction using Decision Trees and Random Forest",
     "section": "Confusion Matrix",
-    "text": "Confusion Matrix\n\n\nCode\nfig, axes = plt.subplots(1, 2, figsize=(12, 4))\nfor ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n    cm = confusion_matrix(y_test, model.predict(X_test))\n    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n                xticklabels=['No Diabetes','Diabetes'],\n                yticklabels=['No Diabetes','Diabetes'])\n    ax.set_title(f'{name} - Confusion Matrix')\nplt.tight_layout()\nplt.show()\n\n#| echo: true\n#| fig-cap: \"Most Important Features for Diabetes Prediction\"\n\nimportances = rf.feature_importances_\nfeat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})\nfeat_df = feat_df.sort_values('Importance', ascending=True)\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')\nax.set_xlabel('Importance')\nplt.tight_layout()\nplt.show()"
+    "text": "Confusion Matrix\n\n\nCode\nfig, axes = plt.subplots(1, 2, figsize=(12, 4))\nfor ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):\n    cm = confusion_matrix(y_test, model.predict(X_test))\n    sns.heatmap(cm, annot=True, fmt='d', ax=ax,\n                xticklabels=['No Diabetes','Diabetes'],\n                yticklabels=['No Diabetes','Diabetes'])\n    ax.set_title(f'{name} - Confusion Matrix')\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "projects/lists/diabetes.html#feature-importance",
+    "href": "projects/lists/diabetes.html#feature-importance",
+    "title": "Diabetes Prediction using Decision Trees and Random Forest",
+    "section": "Feature Importance",
+    "text": "Feature Importance\n\n\nCode\nimportances = rf.feature_importances_\nfeat_df = pd.DataFrame({'Feature': columns[:-1], 'Importance': importances})\nfeat_df = feat_df.sort_values('Importance', ascending=True)\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.barh(feat_df['Feature'], feat_df['Importance'], color='#1B6B7B')\nax.set_xlabel('Importance')\nplt.tight_layout()\nplt.show()\n\n\n\n\n\nMost Important Features for Diabetes Prediction"
   },
   {
     "objectID": "projects/lists/diabetes.html#conclusion",

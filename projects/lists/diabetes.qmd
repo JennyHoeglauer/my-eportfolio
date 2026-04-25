@@ -4,7 +4,7 @@ description: "A machine learning study predicting Type 2 Diabetes using the Pima
 author: "Jenny Höglauer"
 date: "2026-04-20"
 categories: [Machine Learning, Python, Classification]
-image: ../../images/jenny1.JPG
+image: ../../images/ned_website.jpeg
 ---
 
 ## Overview
@@ -63,7 +63,11 @@ for ax, model, name in zip(axes, [dt, rf], ['Decision Tree', 'Random Forest']):
     ax.set_title(f'{name} - Confusion Matrix')
 plt.tight_layout()
 plt.show()
+```
 
+## Feature Importance
+
+```{python}
 #| echo: true
 #| fig-cap: "Most Important Features for Diabetes Prediction"
 
@@ -77,6 +81,7 @@ ax.set_xlabel('Importance')
 plt.tight_layout()
 plt.show()
 ```
+
 ## Conclusion
 
 ::: {.callout-note}
