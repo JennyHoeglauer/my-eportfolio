@@ -4,25 +4,35 @@ project:
 
 website:
   title: "Jenny's E-Portfolio"
+  favicon: images/fav.png
   navbar:
+    logo: images/log.png
     background: primary
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About me
+        text: About Me
       - href: projects/index.qmd
-        text: ML Project
+        text: Projects
       - href: cv.qmd
         text: Curriculum Vitae
+        target: _blank
       - href: reflection.qmd
         text: Reflection
       - href: contact.qmd
         text: Contact
+    right:
+      - href: https://github.com/JennyHoeglauer
+        text: GitHub
+        target: _blank
+
+  page-footer:
+    center: "© 2025 Jenny Höglauer | Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: 
+    theme:
       light: lux
       dark: darkly
     css: styles.scss

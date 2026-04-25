@@ -10,6 +10,8 @@ about:
     - icon: envelope
       text: Email
       href: mailto:jenny.hoeglauer@outlook.com
+    - icon: linkedin
+      href: https://www.linkedin.com/in/jenny-h%C3%B6glauer-62b429254/
 ---
 
 ## Hi, I'm Jenny Höglauer
