@@ -16,6 +16,8 @@ Development module at Dublin City University. As **CEO** of the project,
 I led a team of five students to design, research and pitch a digital 
 solution for young adults struggling with stress and anxiety.
 
+![MindBoost Pitch Flyer](../../images/ned_flyer.jpeg){width=80% fig-align="center"}
+
 ## App Flow
 
 ```{mermaid}
@@ -25,6 +27,7 @@ flowchart LR
   C --> D[Daily Exercises]
   D --> E[Therapist Access]
 ```
+![MindBoost App Mockup](../../images/mockup.jpeg){width=50% fig-align="center"}
 
 ## The Problem
 
@@ -41,6 +44,8 @@ MindBoost offers personalised daily mental wellbeing support through:
 - 🎯 **Short activities** that fit into a 5-minute daily routine
 - 👨‍⚕️ **Direct therapist access** for professional support
 
+![MindBoost Website](../../images/ned_website.jpeg){width=80% fig-align="center"}
+
 ## Key Research Insights
 
 | Insight | Result |
@@ -56,6 +61,7 @@ As CEO, I was responsible for overall strategy, team coordination and
 the final pitch presentation at DCU Business School.
 
 
+![MindBoost Team at NED Pitch](../../images/ned_group_photo.jpeg){width=80% fig-align="center"}
 
 ::: {.callout-note}
 This project was developed as part of the New Enterprise Development Programme at DCU Business School.

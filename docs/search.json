@@ -200,21 +200,21 @@
     "href": "projects/lists/mindboost.html",
     "title": "MindBoost – Mental Wellbeing App",
     "section": "",
-    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety."
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety.\n\n\n\nMindBoost Pitch Flyer"
   },
   {
     "objectID": "projects/lists/mindboost.html#overview",
     "href": "projects/lists/mindboost.html#overview",
     "title": "MindBoost – Mental Wellbeing App",
     "section": "",
-    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety."
+    "text": "MindBoost is a mental wellbeing app developed as part of the New Enterprise Development module at Dublin City University. As CEO of the project, I led a team of five students to design, research and pitch a digital solution for young adults struggling with stress and anxiety.\n\n\n\nMindBoost Pitch Flyer"
   },
   {
     "objectID": "projects/lists/mindboost.html#app-flow",
     "href": "projects/lists/mindboost.html#app-flow",
     "title": "MindBoost – Mental Wellbeing App",
     "section": "App Flow",
-    "text": "App Flow\n\n\n\n\n\nflowchart LR\n  A[Mood Check-in] --&gt; B[AI Analysis]\n  B --&gt; C[Personalised Tips]\n  C --&gt; D[Daily Exercises]\n  D --&gt; E[Therapist Access]"
+    "text": "App Flow\n\n\n\n\n\nflowchart LR\n  A[Mood Check-in] --&gt; B[AI Analysis]\n  B --&gt; C[Personalised Tips]\n  C --&gt; D[Daily Exercises]\n  D --&gt; E[Therapist Access]\n\n\n\n\n\n\n\n\n\nMindBoost App Mockup"
   },
   {
     "objectID": "projects/lists/mindboost.html#the-problem",
@@ -228,7 +228,7 @@
     "href": "projects/lists/mindboost.html#our-solution",
     "title": "MindBoost – Mental Wellbeing App",
     "section": "Our Solution",
-    "text": "Our Solution\nMindBoost offers personalised daily mental wellbeing support through:\n\n🧠 AI-personalised tips based on mood tracking\n📓 Daily check-ins with journaling and breathing exercises\n🎯 Short activities that fit into a 5-minute daily routine\n👨‍⚕️ Direct therapist access for professional support"
+    "text": "Our Solution\nMindBoost offers personalised daily mental wellbeing support through:\n\n🧠 AI-personalised tips based on mood tracking\n📓 Daily check-ins with journaling and breathing exercises\n🎯 Short activities that fit into a 5-minute daily routine\n👨‍⚕️ Direct therapist access for professional support\n\n\n\n\nMindBoost Website"
   },
   {
     "objectID": "projects/lists/mindboost.html#key-research-insights",
@@ -242,7 +242,7 @@
     "href": "projects/lists/mindboost.html#my-role",
     "title": "MindBoost – Mental Wellbeing App",
     "section": "My Role",
-    "text": "My Role\nAs CEO, I was responsible for overall strategy, team coordination and the final pitch presentation at DCU Business School.\n\n\n\n\n\n\nNote\n\n\n\nThis project was developed as part of the New Enterprise Development Programme at DCU Business School."
+    "text": "My Role\nAs CEO, I was responsible for overall strategy, team coordination and the final pitch presentation at DCU Business School.\n\n\n\nMindBoost Team at NED Pitch\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis project was developed as part of the New Enterprise Development Programme at DCU Business School."
   },
   {
     "objectID": "projects/lists/mindboost.html#data-analysis",
