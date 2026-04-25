@@ -16,10 +16,10 @@ about:
 
 ## Welcome to my Portfolio!
 
-I am Jenny Höglauer, a Double Degree student in **Global Business Studies** at Dublin City University, Ireland and **International Management** at ESB Business School, Germany.
+I am Jenny Höglauer, a Double Degree student in **Global Business Studies** at Dublin City University, Ireland and **International Management** at ESB 
+Business School, Germany. Currently based in Dublin, I am combining my passion for finance, strategy and data analytics with hands-on international experience.
 
-With a strong interest in finance, strategy and data analytics, I enjoy working at the intersection of business and technology — turning complex data into structured insights that support decision-making.
-
-This portfolio showcases my academic projects, professional experience and personal development — from machine learning and entrepreneurship to international business and beyond.
+This portfolio showcases my academic projects, professional experience and personal development, from machine learning and entrepreneurship to 
+international business and beyond.
 
 Feel free to explore my work and get in touch!
