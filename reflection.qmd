@@ -58,4 +58,5 @@ These skills are directly applicable to my career goals in finance,
 strategy and data analytics, where data-driven decision making is 
 increasingly important. I plan to continue developing my Python skills 
 and explore tools such as SQL and Tableau to complement what I have 
-learned here.
+learned here. I aim to pursue a career in finance, strategy or data analytics, especially in an international environment where I can combine my analytical 
+skills with my cross-cultural experience.
